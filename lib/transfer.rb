@@ -1,8 +1,10 @@
 class Transfer
 
-  def initialize (name, transfer)
-    @name = name
-    @transfer = transfer
+  attr_accessor :name, :transfer
+
+
+
+  def initialize
 
   end
 
