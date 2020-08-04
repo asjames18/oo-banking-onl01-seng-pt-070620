@@ -11,8 +11,8 @@ class BankAccount
 
   end
 
-  def deposit(money)
-    money = 2000
+  def deposit(balance)
+    balance = 2000
     binding.pry
 
   end
