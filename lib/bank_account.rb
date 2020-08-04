@@ -18,7 +18,7 @@ class BankAccount
 
   def display_balance
     display_balance = "Your balance is $#{balance}."
-    
+
     binding.pry
 
   end
@@ -33,7 +33,7 @@ class BankAccount
 
 def close_account
   # close_account << "closed"
-binding.pry
+# binding.pry
 end
 
 end
