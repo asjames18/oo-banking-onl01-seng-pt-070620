@@ -22,7 +22,7 @@ class BankAccount
    if self.status == "open" && self.balance > 0
   return true
  elsif self.status == "closed"
-   false
+   return false
  end
   end
 
