@@ -12,7 +12,7 @@ class BankAccount
   end
 
   def deposit(money)
-    money = 2000
+    deposit = 2000
     binding.pry
 
   end
