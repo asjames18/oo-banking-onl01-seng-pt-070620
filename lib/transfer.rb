@@ -13,6 +13,7 @@ class Transfer
   def valid?
     if self.valid?
       true
+    end
 
   end
 
