@@ -13,14 +13,13 @@ class BankAccount
 
   def deposit(money)
     money = 2000
+    binding.pry
 
   end
 
   def display_balance
     display_balance = "Your balance is $#{balance}."
   end
-  binding.pry
-
   def valid?
    if @status = "open" && balance > 0
    true
